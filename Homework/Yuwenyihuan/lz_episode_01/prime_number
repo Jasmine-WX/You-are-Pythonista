@@ -1,0 +1,2 @@
+print('100以内的质数有:')
+print(''.join('%s ' % i for i in range(2,101) if not [j for j in range(2,i) if i % j ==0]))
